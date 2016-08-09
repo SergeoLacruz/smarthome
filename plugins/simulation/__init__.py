@@ -29,6 +29,7 @@
 #       removed rest of state 3 (hold)
 #  0.3  changed most logger.info to logger.debug
 #       Added release version to init message
+#  0.4
 #
 #x#########################################################################
 
