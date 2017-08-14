@@ -28,7 +28,6 @@ by someone, e.g. knx for changes from the bus. The canner name is identical with
 Only item changes with a caller in the list are recorded to the simulation file. In the example above e.g. uzsu is
 ignored.
 
-
 items.conf:
 
  `sim = track` 
