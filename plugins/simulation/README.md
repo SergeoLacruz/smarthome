@@ -18,8 +18,13 @@ plugin.conf
    class_name = Simulation
    class_path = plugins.simulation
    data_file = /usr/smarthome/var/db/simulation.txt
+   callers = knx | visu
+   
 ```
 `data_file`: This is the file where all recorded events are stored.
+`callers` is a list of event sources fpr recording of events. When an item is changed, the change is done
+by someone, e.g. knx for changes from the bus. The canner name is identical with the plugin name that changes the item
+
 
 items.conf:
 
